@@ -1,3 +1,3 @@
 # paulinashoperup
 HEEEEJKA Zadanie domowe
-BLA BLA BLA
+BLA BLA BLAs
