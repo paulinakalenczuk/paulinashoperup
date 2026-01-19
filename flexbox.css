@@ -1,0 +1,156 @@
+{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.page-header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap: 15px;
+}
+.hero-section{
+    display:flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    height: 350px;
+}
+.hero-img{
+    width:100%;
+    height: auto;
+}
+.promo-cards {
+    display: flex;             
+    justify-content: center;   
+    gap: 20px;                 
+    padding: 40px 10%;         
+}
+
+.card {
+    flex: 1;      
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+    border: 1px solid #000;      
+}
+
+.card img {
+    width: 100%;                
+    height: auto;
+    margin-bottom: 10px;       
+}
+
+.card-buttons {
+    display: flex;
+    gap: 0px;
+    margin-top: 15px;
+}
+
+.btn-gray { background-color: #bbb; border: none; padding: 5px; flex: 1; cursor: pointer; }
+.btn-green { background-color: green; color: white; border: none; padding: 5px; flex: 1; cursor: pointer; }
+.news-section {
+    padding: 40px 10%; /* Odstęp od brzegów strony, jak w Twoim headerze [cite: 149] */
+    overflow: auto;    /* Ważne: czyści float, aby kolejne sekcje nie nachodziły na tę [cite: 197, 204] */
+}
+
+.news-img {
+    float: left;     
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.news-content p {
+    text-align: justify; 
+    font-size: 14px;     
+}
+.main-content-split {
+    display: flex;             
+    justify-content: center;   
+    gap: 40px;                 
+    padding: 40px 10%;         
+    align-items: flex-start;   
+}
+.articles-list {
+    display: flex;
+    flex-direction: column;    
+    gap: 10px;                 
+    flex: 1;                   
+}
+
+.small-article {
+    font-size: 15px;
+    display: flex;             
+    align-items: center;
+    gap: 15px;
+}
+.big-photo-container {
+    flex: 1;
+    text-align: right;
+}
+
+.big-img {
+    width: 100%;
+    height: auto;
+}
+
+.img-caption {
+    font-size: 12px;
+    color: #888;
+}
+.bottom-split-section {
+    display: flex;
+    gap: 40px;
+    padding: 40px 10%;
+    align-items: flex-start;
+}
+
+.bottom-img-container, .bottom-text-container {
+    flex: 1;
+}
+
+.bottom-text-container p {
+    font-size: 15px;
+    text-align: justify;       
+    line-height: 1.6;          
+    margin-bottom: 20px;       
+}
+.page-footer {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 25% 20px 25%;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;/
+    margin-bottom: 20px;
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column li {
+    margin-bottom: 5px;
+}
+
+.footer-column li a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+.footer-author {
+    text-align: left;            
+    font-size: 10px;             
+    color: #ccc;
+
+.footer-author p {
+    margin: 0;
+}
